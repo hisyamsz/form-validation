@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function isPhone(phone) {
-        return /^\+?(\d.*){3,}$/.test(phone);
+        return /^\+?[\d.*]{3,}$/.test(phone);
     }
 
     function showModal() {
